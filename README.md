@@ -81,6 +81,16 @@ cd param
 nano dwa_local_planner_params_<model>.yaml
 ```
 
+## Running Scripts
+```bash
+cd ~/catkin_ws/src
+git clone https://github.com/wcl20/ROS-SLAM.git
+cd ..
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+rosrun wcl20_slam <executable>
+```
+
 ## ROS TF Package
 The position of the robot wrt the odom frame is published in /odom
 ```bash
