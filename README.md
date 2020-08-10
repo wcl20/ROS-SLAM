@@ -66,6 +66,7 @@ source ~/catkin_ws/devel/setup.bash
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=<path_to_map.yaml>
 ```
+Also setup path in map.yaml.
 In RVIZ:
 Use '2D Pose Estimate' Button to set initial position of robot.
 Use '2D Nav Goal' Button to set goal of robot.
